@@ -29,7 +29,7 @@ with open(inputfile,'r') as fh:
             og=dialpos
             dialpos-=steps
             if dialpos<dialmin :
-                if og>0 :
+                if og>0 : # only count a transition PAST zero not FROM zero
                     zerocount += 1
                 dialpos = range+dialpos
         elif dir == "R" :
