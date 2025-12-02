@@ -10,8 +10,14 @@ Work interferes but hopefully I can have a go....
   several times, couldn't work out why I should be subtracting from
   `range` instead of `dialmax` but at least I'm in the same hands at the
   Romans with my misunderstanding of the importance of zero....
+
   * `python/day1part2.py` - Some interesting corner-cases there to do with
   large spins and _when_ the dial transitions past zero. I had a couple
   silly sequence errors but mostly just failed on that when the transition
   occurs. Re-running against the test data sorted out the corner-case I
   was missing though.
+
+  * `python/day2part1.py` - A good question today, with the world's
+  stupidest answer provided. Yes, I too like to treat mathematical
+  problems as string comparison exercises. I'm absolutely sure this will
+  in no way come back to bite me in Part 2....
