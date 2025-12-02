@@ -23,7 +23,7 @@ Work interferes but hopefully I can have a go....
   in no way come back to bite me in Part 2....
 
   * `python/day2part2.py` - I think I'm ashamed of this solution. I mean
-  it _works_ but I really can't feel a bit dirty for just treating this as
-  a string comparision problem. And taking the most brute-force approach
-  to generating the strings and fragments. I'm really not a pythonista, am
-  I?
+  it _works_ but I really can't help but feel a bit dirty for just
+  treating this as a string comparision problem. And taking the most
+  brute-force approach to generating the strings and fragments. I'm really
+  not a pythonista, am I?
