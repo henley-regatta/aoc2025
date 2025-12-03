@@ -57,6 +57,6 @@ if __name__ == "__main__" :
     for bank in powerwall :
         foundMax = maxJoltage(bank) 
         sumMax+=foundMax
-        print(f"{foundMax}    {bank}")
+        print(f"{foundMax}    {''.join(map(str,bank))}")
         
     print(f"part2 answer:  {sumMax}")
