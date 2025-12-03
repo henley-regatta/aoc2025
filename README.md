@@ -33,3 +33,10 @@ Work interferes but hopefully I can have a go....
   worked around it, solution's fairly simplistic (you could functionalise
   the digit search to avoid repetition but why bother?). Let's see what
   part 2 has to bring to the table...
+
+  * `python/day3part2.py` - Ahhhh.. OK, *thats* why you should
+  functionalise the digit search.... Apart from that, and some off-by-one
+  errors in my indexing, this is just a repeat of the first solution with
+  a sliding window across the available digits. I'd have been lost on the
+  off-by-one's if the sample data hadn't been representative of the actual
+  data though...
