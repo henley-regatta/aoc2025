@@ -27,3 +27,9 @@ Work interferes but hopefully I can have a go....
   treating this as a string comparision problem. And taking the most
   brute-force approach to generating the strings and fragments. I'm really
   not a pythonista, am I?
+
+  * `python/day3part1.py` - Actually I'm quite satisfied with this. Got
+  the algorithm right first time, found the corner case and correctly
+  worked around it, solution's fairly simplistic (you could functionalise
+  the digit search to avoid repetition but why bother?). Let's see what
+  part 2 has to bring to the table...
