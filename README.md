@@ -48,9 +48,11 @@ Work interferes but hopefully I can have a go....
   Pythonic approach to parsing, re-parsing and dumping a nice
   visualisation at the end too. Fun little problem.
 
-  * `python/day4part2.py` - Yay, this is just an iterative version of part
-  1! And I can re-use the visualisation code to make the required map
-  updates between iterations. Lovely job - I expect today's time
-  differences between p1 and p2 will be quite low. This was fun but I'd
-  love to do a proper visualisation animation of the removal process. If
-  time permits...
+* `python/day4part2.py` - Yay, this is just an iterative version of part
+1! And I can re-use the visualisation code to make the required map
+updates between iterations. Lovely job - I expect today's time differences
+between p1 and p2 will be quite low. This was fun but I'd love to do a
+proper visualisation animation of the removal process. If time permits...
+  * `python/day4part2_visualisation.py` - each step represented as 2 output
+  PNGs showing first what to be removed in red, then removing it. Later
+  turned into a webm using `ffmpeg` to create an animation
