@@ -40,3 +40,10 @@ Work interferes but hopefully I can have a go....
   a sliding window across the available digits. I'd have been lost on the
   off-by-one's if the sample data hadn't been representative of the actual
   data though...
+
+  * `python/day4part1.py` - OK time to use t'internet's favourite "just
+  grow the map border" technique. And, yes, it does make boundary checks
+  easy. Of course if you don't remember how `range()` works you still end
+  up with off-by-ones everywhere. But having said that, some reasonably
+  Pythonic approach to parsing, re-parsing and dumping a nice
+  visualisation at the end too. Fun little problem.
