@@ -56,3 +56,10 @@ proper visualisation animation of the removal process. If time permits...
   * `python/day4part2_visualisation.py` - each step represented as 2 output
   PNGs showing first what to be removed in red, then removing it. Later
   turned into a webm using `ffmpeg` to create an animation
+
+* `python/day5part1.py` - OK so this has the feel of easy-part1,
+expensive-part2 so let's get ahead of the curve. Used a common algorithm
+to "collapse" the ranges (50% saving on later checks based on my input
+data), used a simple range-finder algorithm to minimise effort to
+determine which range an ingredient COULD be a part of. Let's see what
+that gets me in Part 2....
