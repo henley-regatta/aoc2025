@@ -63,3 +63,8 @@ to "collapse" the ranges (50% saving on later checks based on my input
 data), used a simple range-finder algorithm to minimise effort to
 determine which range an ingredient COULD be a part of. Let's see what
 that gets me in Part 2....
+
+* `python/day5part2.py` - YESESSS! That was the correct optimisation to
+make! Collapsing the ranges to mimimum overlapping makes calculation of
+the answer here ("how many IDs count as fresh?") trivial - it's just the
+sum of the non-overlapping ranges. Quickest. Ever. Part 2.
