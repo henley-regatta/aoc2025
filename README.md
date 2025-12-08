@@ -95,3 +95,14 @@ understood, on we proceeded with our usual level of off-by-ones and
 googling basic functions. Side effect of having to work out wtf was wrong
 was an inbuilt visualisation, although it looks like a xmas tree really
 (who would have thought, eh?)
+
+* `python/day7part2.py` - OK, wrong thing to be worried about. This was
+another avoid-the-combinatorial-trap question. I got that the approach
+would be "backtrack from the bottom up" quite quickly but it took a _lot_
+longer to work out how to do it. Insight was too note that splitters just
+act as sum-of-remaining-paths when tackled in reverse so, with a bit of
+phaffing around number propagation __and__ the final insight that "don't
+worry about zeroing out the points further on" because the answer is just
+the __biggest__ number seen on the final line, boomshanka. The code is
+still blazingly quick and it gets the right answer even if it's a pretty
+ugly approach.
