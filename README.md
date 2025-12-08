@@ -68,3 +68,9 @@ that gets me in Part 2....
 make! Collapsing the ranges to mimimum overlapping makes calculation of
 the answer here ("how many IDs count as fresh?") trivial - it's just the
 sum of the non-overlapping ranges. Quickest. Ever. Part 2.
+
+* `python/day6part1.py` - Not really a Maths problem, more a sort of
+parsing and data organisation issue. Marshalling the data into a parseable
+form was the "hard bit"; doing the sums fairly trivial. I mean, really,
+it's a matrix manipulation problem and I'm sure recognising that late
+isn't going to come back to bite me in the 2nd part, right?
