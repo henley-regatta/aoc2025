@@ -106,3 +106,13 @@ worry about zeroing out the points further on" because the answer is just
 the __biggest__ number seen on the final line, boomshanka. The code is
 still blazingly quick and it gets the right answer even if it's a pretty
 ugly approach.
+
+* `python/day8part1.py` - In Which We Have to Seek Clues On The Internet.
+I flat-out didn't understand the question and came to the "right answer"
+for the sample data by a) assuming I did b) funging off-by-one errors
+everywhere. Needed help to understand that we should be MERGING strings of
+lights together not just appending them in pairs. I'm told this is a
+Disjoint Set problem but it's solvable mechanistically so, eh. Also had an
+early bug of "I know I need Euclidean distance so why did I forget to
+square everything and end up with Manhattan?" but that was obvious from
+the sample data and example. Frustrating, this one.
