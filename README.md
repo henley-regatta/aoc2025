@@ -86,3 +86,12 @@ running against the actual data didn't throw up any more. If I hadn't
 spotted that the actual data could represent a variable number of clauses
 per problem (by being variable-width columns thus more/less numbers in the
 problem) then I'd have been absolutely stuck.
+
+* `python/day7part1.py` - I had to google why the EXAMPLE answer was the
+value given because I could not for the life of me work it out. If you
+don't understand the example then how can you proceed? Anyway, once the
+core condition - a beam HAS TO HIT a splitter for it to be split - was
+understood, on we proceeded with our usual level of off-by-ones and
+googling basic functions. Side effect of having to work out wtf was wrong
+was an inbuilt visualisation, although it looks like a xmas tree really
+(who would have thought, eh?)
