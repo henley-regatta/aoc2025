@@ -74,3 +74,15 @@ parsing and data organisation issue. Marshalling the data into a parseable
 form was the "hard bit"; doing the sums fairly trivial. I mean, really,
 it's a matrix manipulation problem and I'm sure recognising that late
 isn't going to come back to bite me in the 2nd part, right?
+
+* `python/day6part2.py` - No, not really matrix. More a sort of "your
+language's advanced features can't help you here, learn to properly string
+index nerd!". Fortunately I spotted that the column delimiters could be
+discerned from the position of the operands on the last row which gave me
+the "in" I needed to complete the task, but I've never had so many
+off-by-one and do-it-forward/do-it-backward indexing issues in my life.
+The sample data was _good enough_ to help sort out all these cases so that
+running against the actual data didn't throw up any more. If I hadn't
+spotted that the actual data could represent a variable number of clauses
+per problem (by being variable-width columns thus more/less numbers in the
+problem) then I'd have been absolutely stuck.
