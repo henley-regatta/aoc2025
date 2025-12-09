@@ -116,3 +116,10 @@ Disjoint Set problem but it's solvable mechanistically so, eh. Also had an
 early bug of "I know I need Euclidean distance so why did I forget to
 square everything and end up with Manhattan?" but that was obvious from
 the sample data and example. Frustrating, this one.
+
+* `python/day8part2.py` - I understood the question this time and even how
+to solve it. Unfortunately my Python wasn't up to the job so I wasted huge
+amounts of time chasing down silly code errors. Failure to give good
+termination conditions meant a long delay but having slept on it, boom,
+there we go first run success. Frustrating, but that's all down to me -
+it's a good, fun problem to tackle.
