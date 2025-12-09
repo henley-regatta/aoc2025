@@ -123,3 +123,9 @@ amounts of time chasing down silly code errors. Failure to give good
 termination conditions meant a long delay but having slept on it, boom,
 there we go first run success. Frustrating, but that's all down to me -
 it's a good, fun problem to tackle.
+
+* `python/day9part1.py` - I stared at this in confusion thinking there's a
+combinatorial trap here but... no, **part one** is essentially a repeat of
+yesterday's distance-finding prereq step only with Areas instead. Didn't
+stop me making a few off-by-one errors though, but then nothing *can* stop
+me from making those.
