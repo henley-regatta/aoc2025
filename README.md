@@ -129,3 +129,16 @@ combinatorial trap here but... no, **part one** is essentially a repeat of
 yesterday's distance-finding prereq step only with Areas instead. Didn't
 stop me making a few off-by-one errors though, but then nothing *can* stop
 me from making those.
+
+* `python/day9part2.py` - OK so I understood the problem pretty quickly,
+fell over a bit on how to do the data and came up with the stupidest way
+ever to achieve - use the **Pillow** library to plot me the desired
+polygon, give me back the points. Then I can "just" check if the rectangle
+is entirely within the green area. Fortunately it's a rectangle and the
+polygon is convex so testing just the lines works. Peeking at the polygon
+hints that it's also quicker to check up/down to exclude first. It's
+stupid, but it's surprisingly quick. Wrinkle is that the original
+coordinate system is huge and causes memory overflow, so I used "ranked"
+values instead. And then completely cocked-up the algorithm for
+calculating the ranking (hint: 2 coordinates can share a rank number this
+way). Feeling a bit bruised by this one, if I'm honest
