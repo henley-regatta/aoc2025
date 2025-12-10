@@ -142,3 +142,15 @@ coordinate system is huge and causes memory overflow, so I used "ranked"
 values instead. And then completely cocked-up the algorithm for
 calculating the ranking (hint: 2 coordinates can share a rank number this
 way). Feeling a bit bruised by this one, if I'm honest
+
+* `python/day10part1.py` - Understood the problem. Realised it needed
+permutations. Used `itertools.permutations()` to generate them. Segfaulted
+on "live" data after working OK on sample.... OK, now I understand the
+_real_ problem!. Brute-force permute-over-all even with my "stop if you've
+search more than the previously-found minimum" was a brute force that
+wouldn't end. And, by the way, I've gone so far as reading (but not
+understanding) other people's answers here. Anyway, long story short
+reducing permutations by best found answer so far gets a solution in ~10
+minutes, but being SENSIBLE and starting the other way - increasing the
+permutation length up from 1 to the top - is the best way to tackle this
+and gets an answer in seconds. I already know I'm going to hate part 2....
